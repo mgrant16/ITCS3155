@@ -2,4 +2,7 @@ Myrottenpotatoes::Application.routes.draw do
   resources :movies
   root :to => redirect('/movies')
 end
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c4779e8a001882dcf3c4f9eddf39196df9d398d

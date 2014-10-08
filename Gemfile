@@ -1,11 +1,6 @@
-source 'https://rubygems.org'
+#hope this works!!
 
-# use Haml for templates
-gem 'haml'
-# use Ruby debugger
-group :development, :test do
-	gem 'debugger'
-end
+source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
 
@@ -14,6 +9,12 @@ gem 'rails', '3.2.16'
 
 gem 'sqlite3'
 
+# use Haml for templates
+gem 'haml'
+# use Ruby debugger
+group :development, :test do
+  gem 'debugger'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
